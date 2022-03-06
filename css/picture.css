@@ -1,0 +1,7 @@
+.picture {
+  padding: 40px;
+}
+
+.picture__img {
+  box-shadow: 24px 25px 10px 0px #42445a;
+}

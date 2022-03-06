@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rafał Pietrzyk - kilka słów o mnie</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/date.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/picture.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
+  <link href="css/experience.css" rel="stylesheet">
+
+  <script defer src="js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Strona Główna</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#doswiadczenie-zawodowe">Doświadczenie Zawodowe</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#ulubione-filmy">Ulubione Filmy</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="date">Dziś mamy: <strong class="date__day js-date__day"></strong>. Pozostało <strong
+        class="date__daysToTheWeekend js-date__daysToTheWeekend"></strong> dni
+      do weekendu.</div>
+
+    <header>
+      <h1 class="header">Rafał Pietrzyk - kilka słów o mnie</h1>
+    </header>
+
+    <main>
+
+      <div class="picture js-picture">
+        <img class="picture__img" width="200" src="https://avatars.githubusercontent.com/u/32221697?v=4" alt="zdjęcie Rafała Pietrzyka">
+      </div>
+
+      <button class="button js-button"><span class="button__text js-button__text">ukryj</span> zdjęcie</button>
+
+      <section id="doswiadczenie-zawodowe">
+        <div class="experience">
+          <h2 class="experience__headerLargeText">(2020-11 - do dziś) - Młodszy Programista </h2>
+          <h3 class="experience__headerSmallerText">Makolab, Łódź</h3>
+          <p class="experience__paragraph"><b>Praca przy projekcie bankowym</b></p>
+          <p class="experience__paragraph">W ramach zespołu programistów odpowiedzialny jestem za <em>rozwój,
+              modyfikację, naprawę
+              błędów oraz
+              testy</em>
+            aplikacji bankowej.</p>
+          <p class="experience__paragraph">W <strong>projekcie</strong> używam następujących narzędzi i technologii:
+            <i>Java, HTML,
+              CSS, JavaScript,
+              JUnit, Selenium, Splunk, Bitbucket, JIRA, IntelliJ IDEA</i>
+          </p>
+          <h2 class="experience__headerLargeText">(2020-01 - 2020-05) - Młodszy Programista</h2>
+          <h3 class="experience__headerSmallerText">Accenture, Łódź</h3>
+          <p class="experience__paragraph"><b>Praca w projekcie dla globalnego sprzedawcy telekomunikacyjnego</b></p>
+          <p class="experience__paragraph">W ramach zespołu programistów odpowiedzialny byłem za <em>rozwój,
+              modyfikację, naprawę
+              błędów oraz testy</em>
+            w
+            aplikacji.</p>
+          <p class="experience__paragraph">W <strong>projekcie</strong> używałem następujących narzędzi i technologii:
+            <i>Java, Oracle
+              SQL Developer,
+              XML,
+              Ant, Jenkins, JIRA, Application Lifecycle Management, IntelliJ IDEA, Netop, Bitvise.</i>
+          </p>
+          <h2 class="experience__headerLargeText">(2011-10 – 2020-01) - Starszy Inżynier Procesu</h2>
+          <h3 class="experience__headerSmallerText">Compal Europe Poland, Łódź</h3>
+          <p class="experience__paragraph">Na stanowisku starszego inżyniera procesu odpowiedzialny byłem za:
+            <em>tworzenie oraz
+              modyfikację obrazów i
+              programów testowych</em>, obsługę i rozwiązywanie problemów na linii testowej oraz usprawnianie procesu
+            testowego.
+          </p>
+          <p class="experience__paragraph">Napisałem również <strong>stronę internetową</strong>, dzięki której
+            operatorzy mogli
+            zgłaszać problemy na
+            linii testowej</p>
+        </div>
+      </section>
+
+      <section id="ulubione-filmy">
+        <table class="table">
+          <caption class="table__caption">Moje ulubione filmy</caption>
+          <thead>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="col">Lp.</th>
+              <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+              <th class="table__cell table__cell--header" scope="col">Gatunek</th>
+              <th class="table__cell table__cell--header" scope="col">Kraj produkcji</th>
+              <th class="table__cell table__cell--header" scope="col">Reżyser</th>
+              <th class="table__cell table__cell--header" scope="col">Rok premiery</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">1.</th>
+              <td class="table__cell">Nietykalni</td>
+              <td class="table__cell">Biograficzny / Dramat / Komedia</td>
+              <td class="table__cell">Francja</td>
+              <td class="table__cell">Olivier Nakache / Éric Toledano</td>
+              <td class="table__cell">2011</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">2.</th>
+              <td class="table__cell">Incepcja</td>
+              <td class="table__cell">Surrealistyczny / Thriller / Sci-Fi</td>
+              <td class="table__cell">Stany Zjednoczone / Wielka Brytania</td>
+              <td class="table__cell">Christopher Nolan</td>
+              <td class="table__cell">2010</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">3.</th>
+              <td class="table__cell">Wyspa Tajemnic</td>
+              <td class="table__cell">Dramat / Thriller</td>
+              <td class="table__cell">Stany Zjednoczone</td>
+              <td class="table__cell">Martin Scorsese</td>
+              <td class="table__cell">2010</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">4.</th>
+              <td class="table__cell">Piękny Umysł</td>
+              <td class="table__cell">Biograficzny / Dramat</td>
+              <td class="table__cell">Stany Zjednoczone</td>
+              <td class="table__cell">Ron Howard</td>
+              <td class="table__cell">2001</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">5.</th>
+              <td class="table__cell">Siedem Dusz</td>
+              <td class="table__cell">Dramat</td>
+              <td class="table__cell">Stany Zjednoczone</td>
+              <td class="table__cell">Gabriele Muccino</td>
+              <td class="table__cell">2008</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <section id="kontakt">
+      <footer class="footer">
+        <p class="footer__paragraph">
+          Dane Kontaktowe:
+        </p>
+        <p class="footer__paragraph">
+          Rafał Pietrzyk
+        </p>
+        <p class="footer__paragraph">
+          Telefon:
+          <a class="footer__link" href="tel:+48555555555">
+            +48555555555
+          </a>
+        </p>
+        <p class="footer__paragraph">
+          email:
+          <a class="footer__link" href="mailto:rafipietrzyk@gmail.com">
+            rafipietrzyk@gmail.com
+          </a>
+        </p>
+      </footer>
+    </section>
+  </div>
+</body>
+
+</html>

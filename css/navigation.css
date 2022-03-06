@@ -1,0 +1,24 @@
+.navigation {
+  background-color: #808080;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+.navigation__link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.navigation__link:visited {
+  color: #2f2f2f;
+}
+
+.navigation__link:hover {
+  color: white;
+}
+
+.navigation__item {
+  display: inline;
+}

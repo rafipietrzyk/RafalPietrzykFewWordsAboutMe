@@ -1,0 +1,31 @@
+.footer {
+  padding: 20px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: 62px;
+  max-width: 400px;
+  text-align: left;
+  font-size: 20px;
+  border: black solid 3px;
+  border-radius: 20px;
+  text-shadow: 1px 1px 2px #808080;
+}
+
+.footer__paragraph {
+  font-size: 20px;
+}
+
+.footer__link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.footer__link:visited {
+  color: #2f2f2f;
+}
+
+.footer__link:hover {
+  color: white;
+}

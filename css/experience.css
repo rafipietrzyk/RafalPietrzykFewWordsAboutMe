@@ -1,0 +1,17 @@
+.experience {
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 2;
+}
+
+.experience__headerLargeText {
+    font-size: 30px;
+}
+
+.experience__headerSmallerText {
+    font-size: 25px;
+}
+
+.experience__paragraph {
+    font-size: 20px;
+}
