@@ -1,7 +1,5 @@
 # Rafał Pietrzyk - kilka słów o mnie
 
-![screen projektu](images/screenWebsite.jpg)
-
 ## Demo
 
 https://rafipietrzyk.github.io/RafalPietrzykFewWordsAboutMe/
