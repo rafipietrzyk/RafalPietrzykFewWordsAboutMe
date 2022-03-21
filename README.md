@@ -1,6 +1,6 @@
 # Rafał Pietrzyk - kilka słów o mnie
 
-![screen projektu](images/screen.jpg)
+![screen projektu](images/screenWebsite.jpg)
 
 ## Demo
 
