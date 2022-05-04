@@ -1,5 +1,3 @@
-console.log("Witam Cię w moim świecie. Pozdrawiam! Rafał Pietrzyk.");
-
 let button = document.querySelector(".js-button");
 
 let buttonText = document.querySelector(".js-button__text");
